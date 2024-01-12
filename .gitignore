@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Package managers
+node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# Build output
+dist
+
+# IDE and editor files
+.vscode
+.idea
+
+# Compiled output
+lib
+out
+
+# Logs
+*.log
+
+# Testing
+coverage
+test-results
+
+# Environment variables
+.env
+.env.*
+
+# ESLint
+.eslintcache
+
+# Miscellaneous
+*.bak
+*.swp

@@ -1,0 +1,4 @@
+{
+    "extends": "@kdtjs/tsconfig",
+    "include": ["**/*.ts"]
+}
