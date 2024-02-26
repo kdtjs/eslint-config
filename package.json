@@ -91,7 +91,7 @@
         "@types/prompts": "^2.4.9",
         "eslint": "^8.57.0",
         "lint-staged": "^15.2.2",
-        "np": "^9.2.0",
+        "np": "^10.0.0",
         "npm-check-updates": "^16.14.15",
         "only-allow": "^1.2.1",
         "rimraf": "^5.0.5",
