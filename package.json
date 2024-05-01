@@ -87,7 +87,7 @@
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.4.17",
         "@types/eslint__js": "^8.42.3",
-        "@types/node": "^20.12.7",
+        "@types/node": "^20.12.8",
         "@types/prompts": "^2.4.9",
         "eslint": "^9.1.1",
         "lint-staged": "^15.2.2",
