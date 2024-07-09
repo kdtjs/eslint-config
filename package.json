@@ -94,7 +94,7 @@
         "np": "^10.0.6",
         "npm-check-updates": "^16.14.20",
         "only-allow": "^1.2.1",
-        "rimraf": "^5.0.8",
+        "rimraf": "^6.0.0",
         "simple-git-hooks": "^2.11.1",
         "tsup": "^8.1.0",
         "typescript": "^5.5.3"
