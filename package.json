@@ -74,7 +74,7 @@
         "eslint-processor-vue-blocks": "^1.0.0",
         "globals": "^15.14.0",
         "jsonc-eslint-parser": "^2.4.0",
-        "local-pkg": "^0.5.1",
+        "local-pkg": "^1.0.0",
         "prettier": "^3.4.2",
         "prettier-plugin-toml": "^2.0.1",
         "prompts": "^2.4.2",
