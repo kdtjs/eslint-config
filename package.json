@@ -39,16 +39,16 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=9.22.0"
+        "eslint": ">=9.23.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
         "@antfu/install-pkg": "^1.0.0",
-        "@eslint/js": "^9.22.0",
+        "@eslint/js": "^9.23.0",
         "@stylistic/eslint-plugin": "^4.2.0",
-        "@typescript-eslint/eslint-plugin": "^8.26.1",
-        "@typescript-eslint/parser": "^8.26.1",
-        "@typescript-eslint/utils": "^8.26.1",
+        "@typescript-eslint/eslint-plugin": "^8.27.0",
+        "@typescript-eslint/parser": "^8.27.0",
+        "@typescript-eslint/utils": "^8.27.0",
         "@unocss/eslint-plugin": "^66.0.0",
         "eslint-import-resolver-typescript": "^4.2.2",
         "eslint-merge-processors": "^2.0.0",
@@ -87,15 +87,15 @@
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.11.11",
         "@types/eslint__js": "^9.14.0",
-        "@types/node": "^22.13.10",
+        "@types/node": "^22.13.11",
         "@types/prompts": "^2.4.9",
-        "eslint": "^9.22.0",
+        "eslint": "^9.23.0",
         "lint-staged": "^15.5.0",
         "np": "^10.2.0",
-        "npm-check-updates": "^17.1.15",
+        "npm-check-updates": "^17.1.16",
         "only-allow": "^1.2.1",
         "rimraf": "^6.0.1",
-        "simple-git-hooks": "^2.11.1",
+        "simple-git-hooks": "^2.12.1",
         "tsup": "^8.4.0",
         "typescript": "^5.8.2"
     },
