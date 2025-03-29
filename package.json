@@ -50,7 +50,7 @@
         "@typescript-eslint/parser": "^8.28.0",
         "@typescript-eslint/utils": "^8.28.0",
         "@unocss/eslint-plugin": "^66.0.0",
-        "eslint-import-resolver-typescript": "^4.2.5",
+        "eslint-import-resolver-typescript": "^4.3.1",
         "eslint-merge-processors": "^2.0.0",
         "eslint-plugin-antfu": "^3.1.1",
         "eslint-plugin-deprecation": "^3.0.0",
@@ -76,7 +76,7 @@
         "jsonc-eslint-parser": "^2.4.0",
         "local-pkg": "^1.1.1",
         "prettier": "^3.5.3",
-        "prettier-plugin-toml": "^2.0.2",
+        "prettier-plugin-toml": "^2.0.3",
         "prompts": "^2.4.2",
         "semver": "^7.7.1",
         "vue-eslint-parser": "^10.1.1"
