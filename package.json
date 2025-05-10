@@ -57,7 +57,7 @@
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-format": "^1.0.1",
         "eslint-plugin-i": "^2.29.1",
-        "eslint-plugin-jsdoc": "^50.6.11",
+        "eslint-plugin-jsdoc": "^50.6.12",
         "eslint-plugin-jsonc": "^2.20.0",
         "eslint-plugin-markdown": "^5.1.0",
         "eslint-plugin-n": "^17.18.0",
