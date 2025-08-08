@@ -39,17 +39,17 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=9.32.0"
+        "eslint": ">=9.33.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
         "@antfu/install-pkg": "^1.1.0",
-        "@eslint/js": "^9.32.0",
-        "@stylistic/eslint-plugin": "^5.2.2",
-        "@typescript-eslint/eslint-plugin": "^8.38.0",
-        "@typescript-eslint/parser": "^8.38.0",
-        "@typescript-eslint/utils": "^8.38.0",
-        "@unocss/eslint-plugin": "^66.3.3",
+        "@eslint/js": "^9.33.0",
+        "@stylistic/eslint-plugin": "^5.2.3",
+        "@typescript-eslint/eslint-plugin": "^8.39.0",
+        "@typescript-eslint/parser": "^8.39.0",
+        "@typescript-eslint/utils": "^8.39.0",
+        "@unocss/eslint-plugin": "^66.4.2",
         "eslint-import-resolver-typescript": "^4.4.4",
         "eslint-merge-processors": "^2.0.0",
         "eslint-plugin-antfu": "^3.1.1",
@@ -60,7 +60,7 @@
         "eslint-plugin-jsdoc": "^52.0.4",
         "eslint-plugin-jsonc": "^2.20.1",
         "eslint-plugin-markdown": "^5.1.0",
-        "eslint-plugin-n": "^17.21.0",
+        "eslint-plugin-n": "^17.21.3",
         "eslint-plugin-perfectionist": "^4.15.0",
         "eslint-plugin-promise": "^7.2.1",
         "eslint-plugin-react": "^7.37.5",
@@ -70,7 +70,7 @@
         "eslint-plugin-tailwindcss": "^3.18.2",
         "eslint-plugin-unicorn": "^60.0.0",
         "eslint-plugin-unused-imports": "^4.1.4",
-        "eslint-plugin-vue": "^10.3.0",
+        "eslint-plugin-vue": "^10.4.0",
         "eslint-processor-vue-blocks": "^2.0.0",
         "globals": "^16.3.0",
         "jsonc-eslint-parser": "^2.4.0",
@@ -85,19 +85,19 @@
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
         "@kdtjs/tsconfig": "^0.0.1",
-        "@swc/core": "^1.13.2",
+        "@swc/core": "^1.13.3",
         "@types/eslint__js": "^9.14.0",
-        "@types/node": "^22.16.5",
+        "@types/node": "^22.17.1",
         "@types/prompts": "^2.4.9",
-        "eslint": "^9.32.0",
-        "lint-staged": "^16.1.2",
+        "eslint": "^9.33.0",
+        "lint-staged": "^16.1.5",
         "np": "^10.2.0",
         "npm-check-updates": "^18.0.2",
         "only-allow": "^1.2.1",
         "rimraf": "^6.0.1",
-        "simple-git-hooks": "^2.13.0",
+        "simple-git-hooks": "^2.13.1",
         "tsup": "^8.5.0",
-        "typescript": "^5.8.3"
+        "typescript": "^5.9.2"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
