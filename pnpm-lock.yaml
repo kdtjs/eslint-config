@@ -30,8 +30,8 @@ importers:
         specifier: ^8.50.1
         version: 8.50.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@unocss/eslint-plugin':
-        specifier: ^66.5.10
-        version: 66.5.10(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+        specifier: ^66.5.11
+        version: 66.5.11(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4
         version: 4.4.4(eslint-plugin-import@2.30.0)(eslint@9.39.2(jiti@2.6.1))
@@ -879,8 +879,8 @@ packages:
     resolution: {integrity: sha512-UA91GwWPhFExt3IizW6bOeY/pQ0BkuNwKjk9iQW9KqxluGCrg4VenZ0/L+2Y0+ZOtme72EVvg6v0zo3AMQRCeA==}
     engines: {node: '>=12'}
 
-  '@quansync/fs@0.1.5':
-    resolution: {integrity: sha512-lNS9hL2aS2NZgNW7BBj+6EBl4rOf8l+tQ0eRY6JWCI8jI2kc53gSoqbjojU0OnAWhzoXiOjFyGsHcDGePB3lhA==}
+  '@quansync/fs@1.0.0':
+    resolution: {integrity: sha512-4TJ3DFtlf1L5LDMaM6CanJ/0lckGNtJcMjQ1NAV6zDmA0tEHKZtxNKin8EgPaVX1YzljbxckyT2tJrpQKAtngQ==}
 
   '@rollup/rollup-android-arm-eabi@4.34.9':
     resolution: {integrity: sha512-qZdlImWXur0CFakn2BJ2znJOdqYZKiedEPEVNTBrpfPjc/YuTGcaYZcdmNFTkUj3DU0ZM/AElcM8Ybww3xVLzA==}
@@ -1218,19 +1218,19 @@ packages:
     resolution: {integrity: sha512-IrDKrw7pCRUR94zeuCSUWQ+w8JEf5ZX5jl/e6AHGSLi1/zIr0lgutfn/7JpfCey+urpgQEdrZVYzCaVVKiTwhQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@unocss/config@66.5.10':
-    resolution: {integrity: sha512-udBhfMe+2MU70ZdjnRLnwLQ+0EHYJ4f5JjjvHsfmQ0If4KeYmSStWBuX+/LHNQidhl487JiwW1lBDQ8pKHmbiw==}
+  '@unocss/config@66.5.11':
+    resolution: {integrity: sha512-IsogGaynqMtUCRlqzKiHcIuLAlf6jHLMPwJieRC+DthhIj+pV3EoPDXmqfgsA5fc1gseAtLIjDUDaVh4bROJiQ==}
     engines: {node: '>=14'}
 
-  '@unocss/core@66.5.10':
-    resolution: {integrity: sha512-SEmPE4pWNn9VcCvZqovPwFGuG/j69W3zh+x1Ky4z/I2pnyoB0Y0lBmq22KVu/dwExe+ZKKTQpxa0j5rbE27rDQ==}
+  '@unocss/core@66.5.11':
+    resolution: {integrity: sha512-Wavk2l7vjyd8SlQ8MmMQSSCPdiJEv+cF1l42fsiGSteoOFkbF6uNgmO2CqF5VlXbBjh1ovvQQkLc/0CGOZZXIA==}
 
-  '@unocss/eslint-plugin@66.5.10':
-    resolution: {integrity: sha512-Fzvl5ISMoGnALo9tqI15nNNWZza2ICqmzyujQCyzsxDZEVZzajNvt8wACVHoEz+dUZykjMPJqqdmX5ZijcPZ1w==}
+  '@unocss/eslint-plugin@66.5.11':
+    resolution: {integrity: sha512-484fCE64958z8kFY+iVjjnfv0SJ/634Nx/fVfuZyuLZRkk9YLq6Af6AVVlcKTjcmFqtH+jjNBCUXtf1SbyOpEA==}
     engines: {node: '>=14'}
 
-  '@unocss/rule-utils@66.5.10':
-    resolution: {integrity: sha512-497GPWZpArNG25cto0Yq3/Yw+i0x7/N/ySq1HHeE3lB43sdmCv6+m6QEv14I/9/e5WJhQOmrY5LmHZYXC7xxMw==}
+  '@unocss/rule-utils@66.5.11':
+    resolution: {integrity: sha512-0oJeSmiDuG3n8SvIy/9XdEmiAvoxbba3MDPQ+cV796l3qrFmkVIDC2SdC6K8ibw7YarAuky+78BppD5/mV1OzQ==}
     engines: {node: '>=14'}
 
   '@unrs/resolver-binding-darwin-arm64@1.7.11':
@@ -3625,6 +3625,9 @@ packages:
   quansync@0.2.11:
     resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
 
+  quansync@1.0.0:
+    resolution: {integrity: sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA==}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -4191,11 +4194,11 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  unconfig-core@7.4.1:
-    resolution: {integrity: sha512-Bp/bPZjV2Vl/fofoA2OYLSnw1Z0MOhCX7zHnVCYrazpfZvseBbGhwcNQMxsg185Mqh7VZQqK3C8hFG/Dyng+yA==}
+  unconfig-core@7.4.2:
+    resolution: {integrity: sha512-VgPCvLWugINbXvMQDf8Jh0mlbvNjNC6eSUziHsBCMpxR05OPrNrvDnyatdMjRgcHaaNsCqz+wjNXxNw1kRLHUg==}
 
-  unconfig@7.4.1:
-    resolution: {integrity: sha512-uyQ7LElcGizrOGZyIq9KU+xkuEjcRf9IpmDTkCSYv5mEeZzrXSj6rb51C0L+WTedsmAoVxW9WKrLWhSwebIM9Q==}
+  unconfig@7.4.2:
+    resolution: {integrity: sha512-nrMlWRQ1xdTjSnSUqvYqJzbTBFugoqHobQj58B2bc8qxHKBBHMNNsWQFP3Cd3/JZK907voM2geYPWqD4VK3MPQ==}
 
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
@@ -5016,9 +5019,9 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@quansync/fs@0.1.5':
+  '@quansync/fs@1.0.0':
     dependencies:
-      quansync: 0.2.11
+      quansync: 1.0.0
 
   '@rollup/rollup-android-arm-eabi@4.34.9':
     optional: true
@@ -5332,19 +5335,19 @@ snapshots:
       '@typescript-eslint/types': 8.50.1
       eslint-visitor-keys: 4.2.1
 
-  '@unocss/config@66.5.10':
+  '@unocss/config@66.5.11':
     dependencies:
-      '@unocss/core': 66.5.10
-      unconfig: 7.4.1
+      '@unocss/core': 66.5.11
+      unconfig: 7.4.2
 
-  '@unocss/core@66.5.10': {}
+  '@unocss/core@66.5.11': {}
 
-  '@unocss/eslint-plugin@66.5.10(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
+  '@unocss/eslint-plugin@66.5.11(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/utils': 8.50.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
-      '@unocss/config': 66.5.10
-      '@unocss/core': 66.5.10
-      '@unocss/rule-utils': 66.5.10
+      '@unocss/config': 66.5.11
+      '@unocss/core': 66.5.11
+      '@unocss/rule-utils': 66.5.11
       magic-string: 0.30.21
       synckit: 0.11.11
     transitivePeerDependencies:
@@ -5352,9 +5355,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.5.10':
+  '@unocss/rule-utils@66.5.11':
     dependencies:
-      '@unocss/core': 66.5.10
+      '@unocss/core': 66.5.11
       magic-string: 0.30.21
 
   '@unrs/resolver-binding-darwin-arm64@1.7.11':
@@ -7933,6 +7936,8 @@ snapshots:
 
   quansync@0.2.11: {}
 
+  quansync@1.0.0: {}
+
   queue-microtask@1.2.3: {}
 
   rc@1.2.8:
@@ -8577,18 +8582,18 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  unconfig-core@7.4.1:
+  unconfig-core@7.4.2:
     dependencies:
-      '@quansync/fs': 0.1.5
-      quansync: 0.2.11
+      '@quansync/fs': 1.0.0
+      quansync: 1.0.0
 
-  unconfig@7.4.1:
+  unconfig@7.4.2:
     dependencies:
-      '@quansync/fs': 0.1.5
+      '@quansync/fs': 1.0.0
       defu: 6.1.4
       jiti: 2.6.1
-      quansync: 0.2.11
-      unconfig-core: 7.4.1
+      quansync: 1.0.0
+      unconfig-core: 7.4.2
 
   undici-types@7.16.0: {}
 
