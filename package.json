@@ -92,7 +92,7 @@
         "eslint": "^9.39.2",
         "lint-staged": "^16.2.7",
         "np": "^10.2.0",
-        "npm-check-updates": "^19.2.0",
+        "npm-check-updates": "^19.2.1",
         "only-allow": "^1.2.2",
         "rimraf": "^6.1.2",
         "simple-git-hooks": "^2.13.1",
