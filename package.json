@@ -39,12 +39,12 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=9.39.2"
+        "eslint": ">=10.0.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
         "@antfu/install-pkg": "^1.1.0",
-        "@eslint/js": "^9.39.2",
+        "@eslint/js": "^10.0.1",
         "@stylistic/eslint-plugin": "^5.7.1",
         "@typescript-eslint/eslint-plugin": "^8.54.0",
         "@typescript-eslint/parser": "^8.54.0",
@@ -89,7 +89,7 @@
         "@types/eslint__js": "^9.14.0",
         "@types/node": "^24.10.11",
         "@types/prompts": "^2.4.9",
-        "eslint": "^9.39.2",
+        "eslint": "^10.0.0",
         "lint-staged": "^16.2.7",
         "np": "^11.0.2",
         "npm-check-updates": "^19.3.2",
