@@ -39,17 +39,17 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=10.0.2"
+        "eslint": ">=10.0.3"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
         "@antfu/install-pkg": "^1.1.0",
         "@eslint/js": "^10.0.1",
-        "@stylistic/eslint-plugin": "^5.9.0",
+        "@stylistic/eslint-plugin": "^5.10.0",
         "@typescript-eslint/eslint-plugin": "^8.56.1",
         "@typescript-eslint/parser": "^8.56.1",
         "@typescript-eslint/utils": "^8.56.1",
-        "@unocss/eslint-plugin": "^66.6.5",
+        "@unocss/eslint-plugin": "^66.6.6",
         "eslint-import-resolver-typescript": "^4.4.4",
         "eslint-merge-processors": "^2.0.0",
         "eslint-plugin-antfu": "^3.2.2",
@@ -66,7 +66,7 @@
         "eslint-plugin-react": "^7.37.5",
         "eslint-plugin-react-hooks": "^7.0.1",
         "eslint-plugin-react-refresh": "^0.5.2",
-        "eslint-plugin-sonarjs": "^4.0.0",
+        "eslint-plugin-sonarjs": "^4.0.1",
         "eslint-plugin-tailwindcss": "^3.18.2",
         "eslint-plugin-unicorn": "^63.0.0",
         "eslint-plugin-unused-imports": "^4.4.1",
@@ -87,9 +87,9 @@
         "@kdtjs/tsconfig": "^0.0.1",
         "@swc/core": "^1.15.18",
         "@types/eslint__js": "^9.14.0",
-        "@types/node": "^24.11.0",
+        "@types/node": "^24.12.0",
         "@types/prompts": "^2.4.9",
-        "eslint": "^10.0.2",
+        "eslint": "^10.0.3",
         "lint-staged": "^16.3.2",
         "np": "^11.0.2",
         "npm-check-updates": "^19.6.3",
