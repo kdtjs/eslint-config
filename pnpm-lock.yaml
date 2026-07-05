@@ -54,8 +54,8 @@ importers:
         specifier: ^2.29.1
         version: 2.29.1(@typescript-eslint/parser@8.62.1(eslint@10.6.0(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-typescript@4.4.5(eslint@10.6.0(jiti@2.6.1)))(eslint@10.6.0(jiti@2.6.1))
       eslint-plugin-jsdoc:
-        specifier: ^63.0.10
-        version: 63.0.10(eslint@10.6.0(jiti@2.6.1))
+        specifier: ^63.0.11
+        version: 63.0.11(eslint@10.6.0(jiti@2.6.1))
       eslint-plugin-jsonc:
         specifier: ^3.2.0
         version: 3.2.0(eslint@10.6.0(jiti@2.6.1))
@@ -84,8 +84,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0(eslint@10.6.0(jiti@2.6.1))
       eslint-plugin-tailwindcss:
-        specifier: ^4.0.5
-        version: 4.0.5(eslint@10.6.0(jiti@2.6.1))(tailwindcss@3.4.3)(typescript@6.0.3)
+        specifier: ^4.0.6
+        version: 4.0.6(eslint@10.6.0(jiti@2.6.1))(tailwindcss@3.4.3)(typescript@6.0.3)
       eslint-plugin-unicorn:
         specifier: ^70.0.0
         version: 70.0.0(eslint@10.6.0(jiti@2.6.1))
@@ -359,8 +359,8 @@ packages:
   '@emnapi/wasi-threads@1.0.2':
     resolution: {integrity: sha512-5n3nTJblwRi8LlXkJ9eBzu+kZR8Yxcc7ubakyQTFzPMtIhFpUBRbsnc2Dv88IZDIbCDlBiWrknhB4Lsz7mg6BA==}
 
-  '@es-joy/jsdoccomment@0.87.0':
-    resolution: {integrity: sha512-mFXZloZMzuJZXSHUmAFu/pXTk0ZJTJBluuAkrvbzidpTN8W6F2bpRFuedSH+85kbdlRLJqc+gfN+kD3JOLJK5g==}
+  '@es-joy/jsdoccomment@0.88.0':
+    resolution: {integrity: sha512-GK/HL/claLLNo5KG705auIlZMwEtmn88ofSGuLsmVZwKBqMPJhW9DiznYNq07QEqz9BPtA3LBfYImtZmhVvRAw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   '@es-joy/resolve.exports@1.2.0':
@@ -2221,8 +2221,8 @@ packages:
     peerDependencies:
       eslint: ^7.2.0 || ^8
 
-  eslint-plugin-jsdoc@63.0.10:
-    resolution: {integrity: sha512-A9UIWsCquaKnit7rasXxYf12hhGIdDRjv65/RUE3AxbT6rdKBvr3MjH37g3gP+g4ipQMXuMn9slFKjO+vqNfkg==}
+  eslint-plugin-jsdoc@63.0.11:
+    resolution: {integrity: sha512-QhLmqREgRJSIKg0r23ckTVaNK1lmMsTmpyY5Hv7NTCHNWTFZx/8PqycWhR0p0Lk/U5aJ6H3zAKMQ0xB2NkN0sA==}
     engines: {node: ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -2287,8 +2287,8 @@ packages:
     peerDependencies:
       eslint: ^8.0.0 || ^9.0.0 || ^10.0.0
 
-  eslint-plugin-tailwindcss@4.0.5:
-    resolution: {integrity: sha512-/Jcz7PXz4Req1ilizJBdDqrtEDDIdIhy2z1WtuPpdnKuicu5wHr07R+sxTYqPptGKLKe+CFJ5lJMyisBgSkObg==}
+  eslint-plugin-tailwindcss@4.0.6:
+    resolution: {integrity: sha512-87x/KWOSWSveCbfiGVWW5dNpU/oLfK/McHD9qwIzrfkJwF0LlWFI6ngEwgFpj4M3WYTHFngO07qBvaM1IDBKHA==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
@@ -4704,10 +4704,10 @@ snapshots:
       tslib: 2.6.2
     optional: true
 
-  '@es-joy/jsdoccomment@0.87.0':
+  '@es-joy/jsdoccomment@0.88.0':
     dependencies:
       '@types/estree': 1.0.9
-      '@typescript-eslint/types': 8.62.0
+      '@typescript-eslint/types': 8.62.1
       comment-parser: 1.4.7
       esquery: 1.7.0
       jsdoc-type-pratt-parser: 7.2.0
@@ -5326,7 +5326,7 @@ snapshots:
   '@typescript-eslint/project-service@8.62.0(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.62.0(typescript@6.0.3)
-      '@typescript-eslint/types': 8.62.0
+      '@typescript-eslint/types': 8.62.1
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -6415,9 +6415,9 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-jsdoc@63.0.10(eslint@10.6.0(jiti@2.6.1)):
+  eslint-plugin-jsdoc@63.0.11(eslint@10.6.0(jiti@2.6.1)):
     dependencies:
-      '@es-joy/jsdoccomment': 0.87.0
+      '@es-joy/jsdoccomment': 0.88.0
       '@es-joy/resolve.exports': 1.2.0
       are-docs-informative: 0.0.2
       comment-parser: 1.4.7
@@ -6539,13 +6539,13 @@ snapshots:
       typescript: 6.0.3
       yaml: 2.9.0
 
-  eslint-plugin-tailwindcss@4.0.5(eslint@10.6.0(jiti@2.6.1))(tailwindcss@3.4.3)(typescript@6.0.3):
+  eslint-plugin-tailwindcss@4.0.6(eslint@10.6.0(jiti@2.6.1))(tailwindcss@3.4.3)(typescript@6.0.3):
     dependencies:
-      '@typescript-eslint/utils': 8.62.0(eslint@10.6.0(jiti@2.6.1))(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.62.1(eslint@10.6.0(jiti@2.6.1))(typescript@6.0.3)
       eslint: 10.6.0(jiti@2.6.1)
       postcss: 8.4.38
       postcss-nested: 7.0.2(postcss@8.4.38)
-      synckit: 0.11.12
+      synckit: 0.11.13
       tailwind-api-utils: 1.0.3(tailwindcss@3.4.3)
       tailwindcss: 3.4.3
     optionalDependencies:
