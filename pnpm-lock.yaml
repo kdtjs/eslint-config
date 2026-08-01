@@ -148,11 +148,11 @@ importers:
         specifier: ^10.8.0
         version: 10.8.0(jiti@2.6.1)(supports-color@10.2.2)
       lint-staged:
-        specifier: ^17.2.0
-        version: 17.2.0
+        specifier: ^17.3.0
+        version: 17.3.0
       np:
-        specifier: ^12.0.0
-        version: 12.0.0(@types/node@24.13.3)(typescript@7.0.2)
+        specifier: ^12.0.1
+        version: 12.0.1(@types/node@24.13.3)(typescript@7.0.2)
       npm-check-updates:
         specifier: ^23.0.0
         version: 23.0.0
@@ -3133,8 +3133,8 @@ packages:
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  lint-staged@17.2.0:
-    resolution: {integrity: sha512-FchGnFe4i4B1C/a35SPU9bNGPEHSC1+1iV0plLjzBmKVe9klZrlRfSgK6Cw4VeHyqOXbJUXP0vON61uRftNQ0A==}
+  lint-staged@17.3.0:
+    resolution: {integrity: sha512-woZS3vNe3UKqBaLPvbLOtKRY4tLANpWQhom12MGWqC8Mh1lCOO+WgSwmX2amjJAqTY9BkXYW87fCUH5H9Ph6xw==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -3338,8 +3338,8 @@ packages:
     resolution: {integrity: sha512-RWk+PI433eESQ7ounYxIp67CYuVsS1uYSonX3kA6ps/3LWfjVQa/ptEg6Y3T6uAMq1mWpX9PQ+qx+QaHpsc7gQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  np@12.0.0:
-    resolution: {integrity: sha512-1PzxJkmDHBe0rLTo6selMguD6WPCdYHrxK3PZKdn45dkuhQXXCwaOLTtWOo0PSzSotqr+518r7nzD5eSStg7Dg==}
+  np@12.0.1:
+    resolution: {integrity: sha512-BRT4/T8hOfY0+0ZlXC2JO+gPjPYoo9mQVw4D51+L6Aq3PX3aHwgD5lfNpbAUBHa3fZUbkhAUR3RlS00cLubRTw==}
     engines: {bun: '>=1', git: '>=2.11.0', node: '>=22', npm: '>=10', pnpm: '>=11', yarn: '>=1.7.0'}
     hasBin: true
 
@@ -7302,7 +7302,7 @@ snapshots:
 
   lines-and-columns@1.2.4: {}
 
-  lint-staged@17.2.0:
+  lint-staged@17.3.0:
     dependencies:
       picomatch: 4.0.5
       string-argv: 0.3.2
@@ -7522,7 +7522,7 @@ snapshots:
       semver: 7.8.5
       validate-npm-package-license: 3.0.4
 
-  np@12.0.0(@types/node@24.13.3)(typescript@7.0.2):
+  np@12.0.1(@types/node@24.13.3)(typescript@7.0.2):
     dependencies:
       chalk: 5.6.2
       chalk-template: 1.1.2
