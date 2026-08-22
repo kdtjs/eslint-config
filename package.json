@@ -39,7 +39,7 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=10.8.1"
+        "eslint": ">=10.9.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
@@ -49,7 +49,7 @@
         "@typescript-eslint/eslint-plugin": "^8.67.0",
         "@typescript-eslint/parser": "^8.67.0",
         "@typescript-eslint/utils": "^8.67.0",
-        "@unocss/eslint-plugin": "^66.8.0",
+        "@unocss/eslint-plugin": "^66.8.1",
         "eslint-import-resolver-typescript": "^4.4.5",
         "eslint-merge-processors": "^2.0.0",
         "eslint-plugin-antfu": "^3.2.3",
@@ -58,7 +58,7 @@
         "eslint-plugin-format": "^2.0.1",
         "eslint-plugin-i": "^2.29.1",
         "eslint-plugin-jsdoc": "^64.2.1",
-        "eslint-plugin-jsonc": "^3.4.1",
+        "eslint-plugin-jsonc": "^3.4.2",
         "eslint-plugin-markdown": "^5.1.0",
         "eslint-plugin-n": "^18.3.0",
         "eslint-plugin-perfectionist": "^5.10.1",
@@ -67,7 +67,7 @@
         "eslint-plugin-react-hooks": "^7.1.1",
         "eslint-plugin-react-refresh": "^0.5.4",
         "eslint-plugin-sonarjs": "^4.2.0",
-        "eslint-plugin-tailwindcss": "^4.3.0",
+        "eslint-plugin-tailwindcss": "^4.4.0",
         "eslint-plugin-unicorn": "^73.0.0",
         "eslint-plugin-unused-imports": "^4.4.1",
         "eslint-plugin-vue": "^10.10.0",
@@ -89,7 +89,7 @@
         "@types/eslint__js": "^9.14.0",
         "@types/node": "^24.13.3",
         "@types/prompts": "^2.4.9",
-        "eslint": "^10.8.1",
+        "eslint": "^10.9.0",
         "lint-staged": "^17.3.0",
         "np": "^12.0.1",
         "npm-check-updates": "^23.0.2",
