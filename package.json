@@ -76,7 +76,7 @@
         "jsonc-eslint-parser": "^3.3.0",
         "local-pkg": "^1.2.1",
         "prettier": "^3.9.9",
-        "prettier-plugin-toml": "^3.0.2",
+        "prettier-plugin-toml": "^4.0.0",
         "prompts": "^2.4.2",
         "semver": "^7.8.5",
         "vue-eslint-parser": "^10.4.1"

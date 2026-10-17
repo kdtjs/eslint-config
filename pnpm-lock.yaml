@@ -111,8 +111,8 @@ importers:
         specifier: ^3.9.9
         version: 3.9.9
       prettier-plugin-toml:
-        specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.9)
+        specifier: ^4.0.0
+        version: 4.0.0(prettier@3.9.9)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -351,9 +351,6 @@ packages:
 
   '@dprint/toml@0.7.0':
     resolution: {integrity: sha512-eFaQTcfxKHB+YyTh83x7GEv+gDPuj9q5NFOTaoj5rZmQTbj6OgjjMxUicmS1R8zYcx8YAq5oA9J3YFa5U6x2gA==}
-
-  '@dual-bundle/import-meta-resolve@4.2.1':
-    resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
 
   '@emnapi/core@1.4.3':
     resolution: {integrity: sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==}
@@ -1329,8 +1326,61 @@ packages:
   '@swc/types@0.1.28':
     resolution: {integrity: sha512-V6Mnml8v09QALx6K0elJ7o9K/MkVDtW3t6L+7Ou/JcWtb3xwId2AH4FeOceySd2JaO87IMw4+6vSZxLm34LPbw==}
 
-  '@tombi-toml/wasm-lib@1.5.5':
-    resolution: {integrity: sha512-KFWLTDwNnAsyBqtCmijXxkvfvYVotyEAsT+vt+tZ4ICblklRfpfCI2fxkrSTAwpFYL/u9Ll/iHEf13hEzvFD9Q==}
+  '@tombi-toml/lib-darwin-arm64@1.8.5':
+    resolution: {integrity: sha512-a/5tSNdssQRBcUC6ivybDEXInL2oltX0DbAJstB1TLj4qdOeXRKGSrJfitCACjUTOzis3Igd6nkBtYHfoRorwQ==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@tombi-toml/lib-darwin-x64@1.8.5':
+    resolution: {integrity: sha512-IRLjvbJyDmLz6Brbp2pTFnPeJCKd9dHzJB7UGvquIQLdOzCgdxOsHV3fHBldeQIIsl8791RCU6BHeVNWB0oKXw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@tombi-toml/lib-linux-arm64-musl@1.8.5':
+    resolution: {integrity: sha512-TEbPFe+aLl7HN5nj1PH4k+d99eligGql7OOzWWR5JfFfCHNX8aEIerUUXwg5VNj1wyHSUc/VcNvwJrFlMr5agQ==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@tombi-toml/lib-linux-arm64@1.8.5':
+    resolution: {integrity: sha512-yq2zMrnqRRKBJYSS8XR9MxG+roe4APDR+FSGXL4LJ6xfStpfMEpl09pVGCiv1qa4avvvQLa1tXTG0VykYx099g==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tombi-toml/lib-linux-x64-musl@1.8.5':
+    resolution: {integrity: sha512-LKU+QcXvmRiuqdNbUKlNYFHqK6aJCpTzNI7N5mz8Ntdz+gMQVZkAMictxNQwrOS2d1asJn8raVlBEMiUqbrlFw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@tombi-toml/lib-linux-x64@1.8.5':
+    resolution: {integrity: sha512-dcRXqN93uidJOnL6KhXcSaSq/9BE6GFSjre+Rzq6q+5uLdROoIncYtj2oeeVZJPrq7Vp2oJmOQBl9sZ1RceZCw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tombi-toml/lib-win32-arm64@1.8.5':
+    resolution: {integrity: sha512-1ACHRNCaAGVoI71LXBj2R4VWZkjOOQAI5aPR+7WcU2zwkMnN55i5mgycPV45zKFfnAIkjvlDpT5olpZ4KXyAqg==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@tombi-toml/lib-win32-x64@1.8.5':
+    resolution: {integrity: sha512-CfDHGdgdA4r+J0iCBnwQCEN4YFZRcbzc8eaJ75mQ9p0VVDq5MZ5s1wczX4uWpzQ/O8LGGo/nljX7zJjPQ2YNAA==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tombi-toml/lib@1.8.5':
+    resolution: {integrity: sha512-p2iL3Wr8ry+0+hEt6oigKBqEV+EDL7oCzZiiYR29dDcBrPN4OOqxz+UBvS3DapKsRbmf/z7DKMsMzlhcs0ypmg==}
+    engines: {node: '>=20.0.0'}
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -3903,9 +3953,9 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier-plugin-toml@3.0.2:
-    resolution: {integrity: sha512-1t1FOSGaXNy7xN6ffE7ND71VqsnbUtanGEKAD1hTwFDrGIH1cwZ0KH6lMThDVItjdV/UUJWqD3f1+16AHG3eUQ==}
-    engines: {node: '>=18.0.0'}
+  prettier-plugin-toml@4.0.0:
+    resolution: {integrity: sha512-kx4a0gdNKH40/NOj/gSkiRKqXmOq8hXb6fNWW6Txd3T0fyq+Wq8ly0qtjNoGGiLUPhvS/3PIRVyVJpzHw6RNwA==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       prettier: ^3.0.3
 
@@ -4903,8 +4953,6 @@ snapshots:
 
   '@dprint/toml@0.7.0': {}
 
-  '@dual-bundle/import-meta-resolve@4.2.1': {}
-
   '@emnapi/core@1.4.3':
     dependencies:
       '@emnapi/wasi-threads': 1.0.2
@@ -5558,7 +5606,40 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@tombi-toml/wasm-lib@1.5.5': {}
+  '@tombi-toml/lib-darwin-arm64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-darwin-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-arm64-musl@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-arm64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-x64-musl@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-win32-arm64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-win32-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib@1.8.5':
+    optionalDependencies:
+      '@tombi-toml/lib-darwin-arm64': 1.8.5
+      '@tombi-toml/lib-darwin-x64': 1.8.5
+      '@tombi-toml/lib-linux-arm64': 1.8.5
+      '@tombi-toml/lib-linux-arm64-musl': 1.8.5
+      '@tombi-toml/lib-linux-x64': 1.8.5
+      '@tombi-toml/lib-linux-x64-musl': 1.8.5
+      '@tombi-toml/lib-win32-arm64': 1.8.5
+      '@tombi-toml/lib-win32-x64': 1.8.5
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
@@ -5885,7 +5966,7 @@ snapshots:
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-dom@3.4.21':
     dependencies:
@@ -5902,7 +5983,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.21
       postcss: 8.4.38
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-ssr@3.4.21':
     dependencies:
@@ -8385,10 +8466,9 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-toml@3.0.2(prettier@3.9.9):
+  prettier-plugin-toml@4.0.0(prettier@3.9.9):
     dependencies:
-      '@dual-bundle/import-meta-resolve': 4.2.1
-      '@tombi-toml/wasm-lib': 1.5.5
+      '@tombi-toml/lib': 1.8.5
       prettier: 3.9.9
       smol-toml: 1.9.0
 
