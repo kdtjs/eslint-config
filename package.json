@@ -45,7 +45,7 @@
         "@antfu/eslint-define-config": "^1.23.0-2",
         "@antfu/install-pkg": "^2.1.0",
         "@eslint/js": "^10.0.1",
-        "@stylistic/eslint-plugin": "^5.10.0",
+        "@stylistic/eslint-plugin": "^6.0.0",
         "@typescript-eslint/eslint-plugin": "^8.72.2",
         "@typescript-eslint/parser": "^8.72.2",
         "@typescript-eslint/utils": "^8.72.2",
